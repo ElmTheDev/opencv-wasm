@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "opencv-wasm@4.3.0-5",
+      "C:\\Users\\Elmedin\\Documents\\GitHub\\rattenfanger-ui"
+    ]
+  ],
+  "_from": "opencv-wasm@4.3.0-5",
+  "_id": "opencv-wasm@4.3.0-5",
+  "_inBundle": false,
+  "_integrity": "sha512-52C3MjRrt8xazmBaAVBfsXQm13UIAHjU3tY6ZINXwF914TmD1KmEPuTkzLXSAV/IzMYC5hm4yLBzSZ/ZYNzjPw==",
+  "_location": "/opencv-wasm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "opencv-wasm@4.3.0-5",
+    "name": "opencv-wasm",
+    "escapedName": "opencv-wasm",
+    "rawSpec": "4.3.0-5",
+    "saveSpec": null,
+    "fetchSpec": "4.3.0-5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/opencv-wasm/-/opencv-wasm-4.3.0-5.tgz",
+  "_spec": "4.3.0-5",
+  "_where": "C:\\Users\\Elmedin\\Documents\\GitHub\\rattenfanger-ui",
+  "author": {
+    "name": "Ezzat Chamudi"
+  },
+  "bugs": {
+    "url": "https://github.com/echamudi/opencv-wasm/issues"
+  },
+  "description": "Precompiled OpenCV 4.3.0 to JavaScript + WebAssembly for node.js environment",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "chai": "^4.2.0",
+    "jimp": "^0.10.2",
+    "mocha": "^7.1.2",
+    "pixelmatch": "^5.2.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "opencv.js",
+    "opencv.wasm",
+    "opencv.d.ts",
+    "types"
+  ],
+  "homepage": "https://github.com/echamudi/opencv-wasm#readme",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "name": "opencv-wasm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://echamudi@github.com/echamudi/opencv-wasm.git"
+  },
+  "scripts": {
+    "test": "npx mocha ./test/test.js"
+  },
+  "version": "4.3.0-5"
+}
